@@ -42,6 +42,7 @@
     "react-dom": "^18",
     "sonner": "^1.4.41",
     "string-to-color": "^2.2.2",
+    "supabase": "^1.187.3",
     "svix": "^1.21.0",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
