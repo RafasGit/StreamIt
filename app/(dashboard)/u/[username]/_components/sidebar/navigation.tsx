@@ -15,7 +15,7 @@ export function Navigation() {
 			icon: Fullscreen
 		},
 		{
-			label: 'Keys',
+			label: 'Stream Keys',
 			href: `/u/${user?.username}/keys`,
 			icon: KeyRound
 		},
