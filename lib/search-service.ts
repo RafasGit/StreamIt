@@ -37,7 +37,7 @@ export async function getSearch(term?: string) {
 						}
 					}
 				]
-                },
+            },
 			select: {
 				user: true,
 				id: true,
