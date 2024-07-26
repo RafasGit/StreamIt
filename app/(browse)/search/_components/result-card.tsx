@@ -47,5 +47,17 @@ export function ResultCard({ data }: ResultCardProps) {
 	)
 }
 
-
+export function ResultCardSkeleton() {
+	return (
+		<div className='w-full flex gap-x-4'>
+			<div className='relative h-[9rem] w-[16rem]'>
+				<ThumbnailSkeleton />
+			</div>
+			<div className='space-y-2'>
+				<Skeleton className='h-4 w-32' />
+				<Skeleton className='h-3 w-24' />
+				<Skeleton className='h-3 w-12' />
+			</div>
+		</div>
+	)
 }
