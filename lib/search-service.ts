@@ -37,7 +37,6 @@ export async function getSearch(term?: string) {
 						}
 					}
 				]
-                
             })
         } else {
             streams = await db.stream.findMany({
