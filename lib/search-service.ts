@@ -23,3 +23,57 @@ export async function getSearch(term?: string) {
 						}
 					}
 				},
+                OR: [
+					{
+						name: {
+							contains: term
+						}
+					},
+					{
+						user: {
+							username: {
+								contains: term
+							}
+						}
+					}
+				]
+            })
+        } else {
+            streams = await db.stream.findMany({
+                where: {
+                    OR: [
+                        {
+                            name: {
+                                contains: term
+                            }
+                        },
+                        {
+                            user: {
+                                username: {
+                                    contains: term
+                                }
+                            }
+                        }
+                    ]
+                },
+                select: {
+                    user: true,
+                    id: true,
+                    name: true,
+                    isLive: true,
+                    thumbnailUrl: true,
+                    updatedAt: true
+                },
+                orderBy: [
+                    {
+                        isLive: 'desc'
+                    },
+                    {
+                        updatedAt: 'desc'
+                    }
+                ]
+            })
+        }
+        return streams
+    }
+    
