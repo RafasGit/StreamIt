@@ -15,7 +15,7 @@ export default async function KeysPage() {
 		<div className='p-6'>
 			<div className='flex items-center justify-between mb-4'>
 				<h1 className='text-2xl font-bold'>Keys & URLs</h1>
-				<p className='text-sm text-slate-400 italic'>In your Streaming application of choice, navigate to the  s settings and paste both the server url and stream key. Start a stream and you will now be able to share your video live. </p>
+				<p className='text-sm text-slate-400 italic'>In your Streaming application of choice, navigate to the stream settings and paste both the server url and stream key. Start a stream and you will now be able to share your video live. </p>
 				<ConnectModal />
                 
            
