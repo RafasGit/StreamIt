@@ -21,15 +21,7 @@ export async function getStreams() {
 								id: userId
 							}
 						},
-						{
-							NOT: {
-								followedBy: {
-									some: {
-										followerId: userId
-									}
-								}
-							}
-						},
+						
 						{
 							NOT: {
 								blocking: {
@@ -82,10 +74,3 @@ export async function getStreams() {
 	return streams
 }
 
-// NOT: {
-// 						blocking: {
-// 							some: {
-// 								blockedId: userId
-// 							}
-// 						}
-// 					}
