@@ -10,6 +10,7 @@ export default authMiddleware({
     '/api/webhooks(.*)',
     '/api/uploadthing',
     '/:username', 
+    '/search'
   ],
   // Prevent the specified routes from accessing
   // authentication information:
