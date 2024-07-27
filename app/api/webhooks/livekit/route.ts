@@ -1,5 +1,6 @@
 import { headers } from 'next/headers'
 import { WebhookReceiver } from 'livekit-server-sdk'
+import { NextResponse } from 'next/server'
 import { db } from '@/lib/db'
 
 const receiver = new WebhookReceiver(
@@ -35,4 +36,5 @@ export async function POST(req: Request) {
 			}
 		})
 	}
+	return NextResponse.json({ message: 'Webhook received' }, { status: 200 });
 }
