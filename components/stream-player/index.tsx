@@ -96,7 +96,7 @@ export const StreamPlayer =
 		</>
 	)  
 } 
-  
+   
 
 export function StreamPlayerSkeleton() {
 	return (
