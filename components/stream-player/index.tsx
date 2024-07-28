@@ -34,7 +34,7 @@ export const StreamPlayer =
          name, 
          identity, 
         } = useViewerToken(user.id);
-		console.log(useViewerToken)
+	 
     	const { collapsed } = useChatSidebar(state => state)
     
         if (!token || !name || !identity) {
@@ -94,7 +94,7 @@ export const StreamPlayer =
 				</div>
 			</LiveKitRoom>
 		</>
-	)
+	) 
 }
  
 
