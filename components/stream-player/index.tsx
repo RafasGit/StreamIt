@@ -95,7 +95,7 @@ export const StreamPlayer =
 			</LiveKitRoom> 
 		</>
 	)  
-}
+} 
  
 
 export function StreamPlayerSkeleton() {
