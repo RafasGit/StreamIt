@@ -94,7 +94,7 @@ export const StreamPlayer =
 				</div> 
 			</LiveKitRoom>
 		</>
-	) 
+	)  
 }
  
 
