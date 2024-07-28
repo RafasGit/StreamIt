@@ -91,7 +91,7 @@ export const StreamPlayer =
 						isChatDelayed={stream.isChatDelayed}
 						isChatFollowersOnly={stream.isChatFollowersOnly}
 					/>
-				</div>
+				</div> 
 			</LiveKitRoom>
 		</>
 	) 
