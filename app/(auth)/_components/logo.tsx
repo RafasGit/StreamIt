@@ -27,7 +27,7 @@ export const Logo = () => {
           StreamIt
         </p>
         <p className="text-sm text-muted-foreground">
-          &apos;s play
+          &apos;s
         </p>
       </div>
     </div>
