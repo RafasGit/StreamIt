@@ -14,7 +14,7 @@ export const Logo = () => {
       <div className="bg-white rounded-full p-1">
         <Image
           src="/spooky.svg"
-          alt="Gamehub"
+          alt="StreamIt"
           height="80"
           width="80"
         />
