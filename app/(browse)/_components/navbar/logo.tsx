@@ -16,7 +16,7 @@ export const Logo = () => {
       <div className='bg-white rounded-full p-1 mr-12 shrink-0 lg:mr-0 lg:shrink'>
         <Image
           src='/logo.svg'
-          alt='Stream'
+          alt='StreamI'
           height='32'
           width='32'
         />
