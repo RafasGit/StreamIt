@@ -21,7 +21,7 @@ export function Logo() {
 					/>
 				</div>
 				<div className={cn('hidden lg:block', font.className)}>
-					<p className='text-lg font-semibold'>Gamehub</p>
+					<p className='text-lg font-semibold'>StreamIt</p>
 					<p className='text-xs text-muted-foreground'>
 						Creator Dashboard
 					</p>
