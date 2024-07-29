@@ -15,7 +15,7 @@ export const Logo = () => {
     <div className='flex items-center gap-x-4 hover:opacity-75 transition'>
       <div className='bg-white rounded-full p-1 mr-12 shrink-0 lg:mr-0 lg:shrink'>
         <Image
-          src='/l.svg'
+          src='/logo.svg'
           alt='Gamehub'
           height='32'
           width='32'
