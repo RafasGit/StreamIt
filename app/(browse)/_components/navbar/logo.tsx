@@ -22,7 +22,7 @@ export const Logo = () => {
         />
       </div>
       <div className={cn('hidden lg:block', font.className)}>
-        <p className='text-lg font-semibold'>StreamIt</p>
+        <span className='text-lg font-semibold'>StreamIt</span>
         <p className='text-xs text-muted-foreground'>
            
         </p>
