@@ -11,16 +11,20 @@
 
 
  ## Features
-![Image1](https://github.com/RafasGit/letslearn/blob/main/public/letslearnhome.png)
+![Image1](https://github.com/RafasGit/StreamIt/blob/main/public/streamithome.png)
 
- A learning management system which provides the best experience for both students and teachers. Teachers can create manage and sell their technical courses to students which come with ease of purchase, multimedia content and progress tracking.
+ A Live-streaming application with RTMP and WHIP protocols integrated. Streamit enables you to provide live video to your audience, along with realtime communication featurs enabling you to connect with your audience. 
 
-- 🆕 Create new courses and chapters: using provided forms allowing you to categorize your course, include course chapters and as well set a price for your course.
-- 👩‍🏫 Teacher mode/Admin panel: Switch to admin mode to edit or create chapters and courses. 
-- ↔️ Easily Reorder Chapter Position with Drag n’ Drop: Organize your course content with simple drag-and-drop functionality. 
-- 📁 Enhanced learning experience: Upload course thumbnails and multimedia learning resources such as attachments and Videos using UploadThing.
-- 🎥  Video processing and live streaming using Mux: high quaity video content and smooth playback using the Mux video player.
-- 📚 Student Dashboard: Access all your courses and track your learning journey in one place. Browse and filter courses in various categories.
+- 🎛️ Streamer / Creator Dashboard: Access your stream keys, edit your chat settings as well as manage your followers community through one convenient dashboard.
+- 🌐 Generating Ingress and connect your Next.js application to either OBS studio or your preferred streaming tool: Simplify your streaming setup with easy ingress generation and integration with streaming applications.
+- 👥 Following System: Build a community with a robust following system.
+- 🤝 Stream and followers recommendation tabs: Discover users you might want to follow and live streams you may want to tune in to.
+- 🚫 Blocking System: Maintain a positive environment by blocking users who will be prohibited from viewing your stream or appearing in your recommendations.
+- 🚦 Status tracking and syncing using Livekit webhooks: Display current offline or live statuses with real-time data syncinng. 
+- 💬 Real-time Chat Using Sockets: Engage with your audience in realtime through live chatrooms.
+- 🎨 Unique Color for Each Viewer in Chat: Personalize the chat experience with unique colors for each viewer name.
+- 🔽 Collapsible Layout: Customize your viewing experience with hideable sidebars and chat, theatre mode, and more.
+- 
 - 💳 Purchase courses with quick credit or debit card checkout: Stripe integration for secure transactions. 
 - ✅ Progress tracking: Track your learning progress by marking chapters as completed or uncompleted. 
 - 📊 Financial Analytics for course creators: Custom data views with various chart options mapping course purchasing trends and paterns as well as transaction filters by account or date.
