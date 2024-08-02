@@ -53,7 +53,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 To generate a stream, navigate to the [keys tab in the creators dashboard](https://github.com/RafasGit/StreamIt/tree/main/app/(dashboard)/u/%5Busername%5D/keys) and generate a connection. Copy both the server url and stream key and paste them in the stream settings of your preferred streaming application.
 
-![Image1](https://github.com/RafasGit/StreamIt/blob/main/public/streamithome.png)
+![Image1](https://github.com/RafasGit/StreamIt/blob/main/public/connectstream.png)
 
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
@@ -69,10 +69,10 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contributors
 
-For any questions or inquiries, please reach out to the development team at [letslearn](mailto:joshraphael424@gmail.com)
+For any questions or inquiries, please reach out to the development team at [streamit](mailto:joshraphael424@gmail.com)
   
    - GitHub: [@github](https://github.com/RafasGit)
    - Twitter: [@twitter](https://x.com/rafa_codes22)
    - LinkedIn: [LinkedIn](https://www.linkedin.com/in/joshua-ng-ang-a-13158120a)
  
- Enjoy using letslearn!
+ Enjoy using streamit!
