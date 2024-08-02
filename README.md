@@ -60,7 +60,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Contributing
 
-We welcome contributions from the community to enhance DecisionHub. Feel free to submit bug reports, feature requests, or pull requests through the GitHub repository.
+We welcome contributions from the community to enhance Streamit. Feel free to submit bug reports, feature requests, or pull requests through the GitHub repository.
 
 ## License
 
