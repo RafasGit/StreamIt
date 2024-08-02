@@ -24,17 +24,13 @@
 - 💬 Real-time Chat Using Sockets: Engage with your audience in realtime through live chatrooms.
 - 🎨 Unique Color for Each Viewer in Chat: Personalize the chat experience with unique colors for each viewer name.
 - 🔽 Collapsible Layout: Customize your viewing experience with hideable sidebars and chat, theatre mode, and more.
-- 
-- 💳 Purchase courses with quick credit or debit card checkout: Stripe integration for secure transactions. 
-- ✅ Progress tracking: Track your learning progress by marking chapters as completed or uncompleted. 
-- 📊 Financial Analytics for course creators: Custom data views with various chart options mapping course purchasing trends and paterns as well as transaction filters by account or date.
 - 🔐 Authentication provided by Clerk: Secure data access and user authentication.
 
 
 
  ## Stack and Technologies Used
-   - Front-End: NextJs, Zustand, 🎨 TailwindCSS and Shadcn UI.
-   - Back-End: 🟦 TypeScript, Axios. 
+   - Front-End: NextJs, Zustand, 🎨TailwindCSS and Shadcn UI, 📹Livekit-react components.
+   - Back-End: 🟦 TypeScript, Axios, 📡livekit-server and svix . 
    - Database: 💾 PostgreSQL, Neon db and 🗄️ Prisma ORM
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -55,18 +51,9 @@ npm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-For sample financial data, reach out to [Contributors](#Contributors) for admin access. Run the development server and in your terminal execute the [seed.ts](https://github.com/RafasGit/fintter/blob/main/script/seed.ts) script;
+To generate a stream, navigate to the [keys tab in the creators dashboard](https://github.com/RafasGit/StreamIt/tree/main/app/(dashboard)/u/%5Busername%5D/keys) and generate a connection. Copy both the server url and stream key and paste them in the stream settings of your preferred streaming application.
 
-```bash
-bun run db:seed
-# or
-yarn run db:seed
-# or
-pnpm run db:seed
-# or
-npm run db:seed
-```
-
+![Image1](https://github.com/RafasGit/StreamIt/blob/main/public/streamithome.png)
 
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
