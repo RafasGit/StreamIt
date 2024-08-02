@@ -1,31 +1,37 @@
-Key Features:
-- 📡 Streaming using RTMP / WHIP protocols 
-- 🌐 Generating ingress
-- 🔗 Connecting Next.js app to OBS / Your favorite streaming software 
-- 🔐 Authentication 
-- 📸 Thumbnail upload
-- 👀 Live viewer count 
-- 🚦 Live statuses 
-- 💬 Real-time chat using sockets 
-- 🎨 Unique color for each viewer in chat 
-- 👥 Following system 
-- 🚫 Blocking system 
-- 👢 Kicking participants from a stream in real-time 
-- 🎛️ Streamer / Creator Dashboard 
-- 🐢 Slow chat mode 
-- 🔒 Followers only chat mode 
-- 📴 Enable / Disable chat 
-- 🔽 Collapsible layout (hide sidebars, chat etc, theatre mode etc.) 
-- 📚 Sidebar following & recommendations tab 
-- 🏠 Home page recommending streams, sorted by live first 
-- 🔍 Search results page with a different layout 
-- 🔄 Syncing user information to our DB using Webhooks 
-- 📡 Syncing live status information to our DB using Webhooks 
-- 🤝 Community tab 
-- 🎨 Beautiful design
-- ⚡ Blazing fast application 
-- 📄 SSR (Server-Side Rendering) 
-- 🗺️ Grouped routes & layouts 
+ # [letslearn](https://letslearn-umber.vercel.app/)
+
+## Table Of Content
+
+   - [Features](#Features)
+   - [Technologies](#Stack-and-Technologies-Used)
+   - [Getting started](#Getting-Started)
+   - [Contributing](#Contributing)
+   - [License](#License)
+   - [Contributors](#Contributors)
+
+
+ ## Features
+![Image1](https://github.com/RafasGit/letslearn/blob/main/public/letslearnhome.png)
+
+ A learning management system which provides the best experience for both students and teachers. Teachers can create manage and sell their technical courses to students which come with ease of purchase, multimedia content and progress tracking.
+
+- 🆕 Create new courses and chapters: using provided forms allowing you to categorize your course, include course chapters and as well set a price for your course.
+- 👩‍🏫 Teacher mode/Admin panel: Switch to admin mode to edit or create chapters and courses. 
+- ↔️ Easily Reorder Chapter Position with Drag n’ Drop: Organize your course content with simple drag-and-drop functionality. 
+- 📁 Enhanced learning experience: Upload course thumbnails and multimedia learning resources such as attachments and Videos using UploadThing.
+- 🎥  Video processing and live streaming using Mux: high quaity video content and smooth playback using the Mux video player.
+- 📚 Student Dashboard: Access all your courses and track your learning journey in one place. Browse and filter courses in various categories.
+- 💳 Purchase courses with quick credit or debit card checkout: Stripe integration for secure transactions. 
+- ✅ Progress tracking: Track your learning progress by marking chapters as completed or uncompleted. 
+- 📊 Financial Analytics for course creators: Custom data views with various chart options mapping course purchasing trends and paterns as well as transaction filters by account or date.
+- 🔐 Authentication provided by Clerk: Secure data access and user authentication.
+
+
+
+ ## Stack and Technologies Used
+   - Front-End: NextJs, Zustand, 🎨 TailwindCSS and Shadcn UI.
+   - Back-End: 🟦 TypeScript, Axios. 
+   - Database: 💾 PostgreSQL, Neon db and 🗄️ Prisma ORM
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -34,55 +40,48 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
+bun run dev
 # or
 yarn dev
 # or
 pnpm dev
 # or
-bun dev
+npm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+For sample financial data, reach out to [Contributors](#Contributors) for admin access. Run the development server and in your terminal execute the [seed.ts](https://github.com/RafasGit/fintter/blob/main/script/seed.ts) script;
+
+```bash
+bun run db:seed
+# or
+yarn run db:seed
+# or
+pnpm run db:seed
+# or
+npm run db:seed
+```
+
+
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions from the community to enhance DecisionHub. Feel free to submit bug reports, feature requests, or pull requests through the GitHub repository.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 
+## Contributors
 
-
-Follow list;
-export const getFollowedUsers = async () => {
-try {
-  const self = await getSelf()
-  const followedUsers = db.follow.findMany({
-    where: {
-      followerId: self.id,
-    },
-    include: {
-      following: true
-      },
-    },
-   
-  );
-  return followedUsers;
-} catch {
-  return []
-}
-};
+For any questions or inquiries, please reach out to the development team at [letslearn](mailto:joshraphael424@gmail.com)
+  
+   - GitHub: [@github](https://github.com/RafasGit)
+   - Twitter: [@twitter](https://x.com/rafa_codes22)
+   - LinkedIn: [LinkedIn](https://www.linkedin.com/in/joshua-ng-ang-a-13158120a)
+ 
+ Enjoy using letslearn!
