@@ -62,7 +62,7 @@ export const UserAvatar = ({
       )}
     </div>
   );
-};
+}; 
 
 interface UserAvatarSkeletonProps 
   extends VariantProps<typeof avatarSizes> {};
