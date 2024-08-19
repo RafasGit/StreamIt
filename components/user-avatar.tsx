@@ -49,7 +49,7 @@ export const UserAvatar = ({
           avatarSizes({ size })
         )}
       >
-        <AvatarImage src={imageUrl} className="object-cover" />
+        <AvatarImage src={imageUrl} className="object-cover"  alt="UserImage"/>
         <AvatarFallback>
           {username[0]}
           {username[username.length - 1]}
