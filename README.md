@@ -13,7 +13,7 @@
  ## Features
 ![Image1](https://github.com/RafasGit/StreamIt/blob/main/public/streamithome.png)
 
- A Live-streaming application with RTMP and WHIP protocols integrated. Streamit enables you to provide live video to your audience, along with realtime communication featurs enabling you to connect with your audience. 
+ A Live-streaming application with RTMP and WHIP protocols integrated. Streamit enables you to provide live video to your audience, along with realtime communication features enabling you to connect with your audience. 
 
 - 🎛️ Streamer / Creator Dashboard: Access your stream keys, edit your chat settings as well as manage your followers community through one convenient dashboard.
 - 🌐 Generating Ingress and connect your Next.js application to either OBS studio or your preferred streaming tool: Simplify your streaming setup with easy ingress generation and integration with streaming applications.
