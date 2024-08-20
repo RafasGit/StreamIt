@@ -25,6 +25,7 @@ export const Toggle = () => {
                 onClick={onExpand}
                 variant="ghost" 
                 className="h-auto p-2"
+                aria-label="close sidebar"
               >
                 <ArrowRightFromLine className="h-4 w-4" />
               </Button>
@@ -41,6 +42,7 @@ export const Toggle = () => {
                 onClick={onCollapse}
                 className="h-auto p-2 ml-auto" 
                 variant="ghost"
+                aria-label="expand"
               >
                 <ArrowLeftFromLine className="h-4 w-4" />
               </Button>
